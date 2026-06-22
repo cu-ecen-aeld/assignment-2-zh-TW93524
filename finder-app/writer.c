@@ -4,7 +4,7 @@
 #include <string.h>
 
 int main(int argc, char *argv[]) {
-    //set up
+    //set it up
     openlog("aesd-writer", LOG_PID, LOG_USER);
 
     //check num of para(3)
